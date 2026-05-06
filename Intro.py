@@ -45,7 +45,7 @@ with col1:
   
  st.subheader("Aplicación 10")
  image = Image.open('detec.png')
- st.image(image, width=200)
+ st.image(image, width=400)
  st.write("Yolo"
 ) 
  url = "https://yolov5manuela.streamlit.app/"
