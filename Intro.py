@@ -43,7 +43,7 @@ with col2:
 
   
  st.subheader("Aplicación 5")
- image = Image.open('reconocimiento2.jpg')
+ image = Image.open('reconocimiento2.png')
  st.image(image, width=110)
  st.write("Reconocimiento Óptico de caracteres, Imagen") 
  url = "https://ocr-audio-manuela.streamlit.app/"
