@@ -33,6 +33,7 @@ with col1:
  url = "https://imagentexto.streamlit.app/"
  st.write(f"App 4: [Enlace]({url})")
 
+
 with col2:
  st.subheader("Aplicación 2")
  image = Image.open('ricitos.jpg')
@@ -48,6 +49,7 @@ with col2:
  st.write("Reconocimiento Óptico de caracteres, Imagen") 
  url = "https://ocr-audio-manuela.streamlit.app/"
  st.write(f"App 5: [Enlace]({url})")
+
 
 with col3:
  st.subheader("Aplicación 3")
