@@ -63,7 +63,7 @@ with col1:
 
  st.subheader("Aplicación 16")
  image = Image.open('ti.png')
- st.image(image, width=500)
+ st.image(image, width=400)
  st.write("Tablero Inteligente"
 ) 
  url = "https://drawrecogmanuela.streamlit.app/"
