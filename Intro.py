@@ -5,7 +5,7 @@ st.title("Mis aplicaciones, Creación de Interfaces Multimodales.")
 with st.sidebar:
   st.subheader("Mis Aplicaciones, Creación de Interfaces Multimodales.")
   parrafo = (
-    "Manuela Vallejo Martínez"
+    "Manuela Vallejo Martínez, "
     "Diseño Interactivo"
   )
   st.write(parrafo)
