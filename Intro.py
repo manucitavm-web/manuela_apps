@@ -134,4 +134,12 @@ with col3:
  st.write(f"App 12: [Enlace]({url})")
 
 
+ st.subheader("Aplicación 15")
+ image = Image.open('niños.jpg')
+ st.image(image, width=1200)
+ st.write("Tablero dibujo") 
+ url = "https://tableromanuela.streamlit.app/"
+ st.write(f"App 15: [Enlace]({url})")
+
+
 
