@@ -61,6 +61,15 @@ with col1:
  st.write(f"App 13: [Enlace]({url})")
 
 
+ st.subheader("Aplicación 16")
+ image = Image.open('analisis.png')
+ st.image(image, width=500)
+ st.write("Tablero Inteligente"
+) 
+ url = "https://drawrecogmanuela.streamlit.app/"
+ st.write(f"App 16: [Enlace]({url})")
+
+
 with col2:
  st.subheader("Aplicación 2")
  image = Image.open('ricitos.jpg')
