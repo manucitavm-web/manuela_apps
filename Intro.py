@@ -39,12 +39,12 @@ with col1:
  st.write(f"YOLO: [Enlace]({url})")
 
 with col2: 
- st.subheader("Conversión de voz a texto")
- image = Image.open('OIG8.jpg')
+ st.subheader("Texto a audio: Cuento Ricitos de Oro")
+ image = Image.open('ricitos.jpg')
  st.image(image, width=200)
- st.write("En la siguiente veremos una aplicación que usa la conversión de voz a texto.") 
- url = "https://traductorw.streamlit.app/"
- st.write(f"Voz a texto: [Enlace]({url})")
+ st.write("Clase 6: Desarrollo de aplicaciones web para interfaces multimodales") 
+ url = "https://immmanuela.streamlit.app/"
+ st.write(f"App 2: [Enlace]({url})")
 
  st.subheader("Análisis de Datos")
  image = Image.open('data_analisis.png')
