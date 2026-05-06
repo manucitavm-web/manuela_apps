@@ -60,6 +60,14 @@ with col2:
  st.write(f"App 5: [Enlace]({url})")
 
 
+ st.subheader("Aplicación 8")
+ image = Image.open('reconocimiento2.png')
+ st.image(image, width=190)
+ st.write("Demo Ingles") 
+ url = "https:https://demomanuelaingles.streamlit.app/"
+ st.write(f"App 8: [Enlace]({url})")
+
+
 with col3:
  st.subheader("Aplicación 3")
  image = Image.open('traductor.jpg')
