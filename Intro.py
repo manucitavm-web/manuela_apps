@@ -110,6 +110,14 @@ with col2:
  url = "https://handmanu.streamlit.app/"
  st.write(f"App 14: [Enlace]({url})")
 
+
+ st.subheader("Aplicación 17")
+ image = Image.open('tab2.png')
+ st.image(image, width=500)
+ st.write("Tablero + Contador de Letras") 
+ url = "https://mitrableropersonalizado.streamlit.app/"
+ st.write(f"App 17: [Enlace]({url})")
+
 with col3:
  st.subheader("Aplicación 3")
  image = Image.open('traductor.jpg')
