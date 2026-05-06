@@ -72,7 +72,7 @@ with col2:
  st.subheader("Aplicación 8")
  image = Image.open('pyr.png')
  st.image(image, width=500)
- st.write("Demo de TF-IDF con Preguntas y Respuestas") 
+ st.write("Demo de TF-IDF con Preguntas y Respuestas, Inglés") 
  url = "https://demomanuelaingles.streamlit.app/"
  st.write(f"App 8: [Enlace]({url})")
 
@@ -104,7 +104,7 @@ with col3:
  st.subheader("Aplicación 9")
  image = Image.open('pyr2.png')
  st.image(image, width=500)
- st.write("Demo TF-IDF en Español") 
+ st.write("Demo de TF-IDF con Preguntas y Respuestas, Español") 
  url = "https://demomanuelaesp.streamlit.app/"
  st.write(f"App 9: [Enlace]({url})")
 
