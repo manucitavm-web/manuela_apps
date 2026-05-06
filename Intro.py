@@ -53,7 +53,7 @@ with col3:
  st.subheader("Aplicación 3")
  image = Image.open('traductor.jpg')
  st.image(image, width=140)
- st.write("Traductor audio") 
+ st.write("Traductor Audio - Texto") 
  url = "https://traductormanuela.streamlit.app/"
  st.write(f"App 3: [Enlace]({url})")
 
