@@ -42,6 +42,15 @@ with col1:
  url = "https:https://sentimentamanu.streamlit.app/"
  st.write(f"App 7: [Enlace]({url})")
 
+  
+ st.subheader("Aplicación 10")
+ image = Image.open('em.png')
+ st.image(image, width=200)
+ st.write("Yolo"
+) 
+ url = "https://yolov5manuela.streamlit.app/"
+ st.write(f"App 10: [Enlace]({url})")
+
 
 with col2:
  st.subheader("Aplicación 2")
@@ -67,6 +76,13 @@ with col2:
  url = "https:https://demomanuelaingles.streamlit.app/"
  st.write(f"App 8: [Enlace]({url})")
 
+
+ st.subheader("Aplicación 11")
+ image = Image.open('pyr.png')
+ st.image(image, width=500)
+ st.write("Detección de gestos en aplicación TM") 
+ url = "https:https://tmmanuela.streamlit.app/"
+ st.write(f"App 11: [Enlace]({url})")
 
 with col3:
  st.subheader("Aplicación 3")
