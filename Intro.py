@@ -61,7 +61,7 @@ with col3:
 
   
  st.subheader("Aplicación 6")
- image = Image.open('maquillaje.png')
+ image = Image.open('maquillaje2.png')
  st.image(image, width=1400)
  st.write("Nube de palabras") 
  url = "https://wordcloudmanu.streamlit.app/"
