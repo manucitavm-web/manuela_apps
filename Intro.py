@@ -30,7 +30,7 @@ with col1:
  st.image(image, width=220)
  st.write("Reconocimiento Óptico de caracteres"
 ) 
- url = "https://introduccionmanuela.streamlit.app/"
+ url = "https://imagentexto.streamlit.app/"
  st.write(f"App 4: [Enlace]({url})")
 
 with col2:
