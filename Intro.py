@@ -18,7 +18,7 @@ with col1:
  
  st.subheader("App 1")
  image = Image.open('pocoyoynina.jpg')
- st.image(image, width=190)
+ st.image(image, width=200)
  st.write("1.	Intro: Mi Primera App"
 ) 
  url = "https://introduccionmanuela.streamlit.app/"
