@@ -41,6 +41,14 @@ with col2:
  url = "https://immmanuela.streamlit.app/"
  st.write(f"App 2: [Enlace]({url})")
 
+  
+ st.subheader("Aplicación 5")
+ image = Image.open('ricitos.jpg')
+ st.image(image, width=110)
+ st.write("Cmbinación") 
+ url = "https://ocr-audio-manuela.streamlit.app/"
+ st.write(f"App 2: [Enlace]({url})")
+
 with col3:
  st.subheader("Aplicación 3")
  image = Image.open('traductor.jpg')
