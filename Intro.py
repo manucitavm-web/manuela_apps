@@ -1,13 +1,11 @@
 import streamlit as st
 from PIL import Image
-st.title("Mis aplicaciones, Creación de Interfaces Multimodales.")
+st.title("Mis aplicaciones")
 
 with st.sidebar:
-  st.subheader("Mis Aplicaciones, Creación de Interfaces Multimodales.")
+  st.subheader("Creación de Interfaces Multimodales")
   parrafo = (
-    "Manuela Vallejo Martínez,          "
-    
-    "Diseño Interactivo"
+    "Manuela Vallejo Martínez
   )
   st.write(parrafo)
 
