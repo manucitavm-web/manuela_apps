@@ -26,7 +26,7 @@ with col1:
 
   
  st.subheader("Aplicación 4")
- image = Image.open('reconocimineto.png')
+ image = Image.open('reconocimiento.png')
  st.image(image, width=220)
  st.write("Reconocimiento Óptico de caracteres"
 ) 
