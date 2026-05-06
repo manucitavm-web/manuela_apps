@@ -81,7 +81,7 @@ with col2:
  image = Image.open('pyr.png')
  st.image(image, width=500)
  st.write("Detección de gestos en aplicación TM") 
- url = "https:https://tmmanuela.streamlit.app/"
+ url = "https://tmmanuela.streamlit.app/"
  st.write(f"App 11: [Enlace]({url})")
 
 with col3:
