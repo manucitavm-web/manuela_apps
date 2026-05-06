@@ -24,24 +24,10 @@ with col1:
  url = "https://introduccionmanuela.streamlit.app/"
  st.write(f"App 1: [Enlace]({url})")
 
- st.subheader("App 1")
- image = Image.open('pocoyoynina.jpg')
- st.image(image, width=200)
- st.write("Introducción: Mi Primera Aplicación"
-) 
- url = "https://introduccionmanuela.streamlit.app/"
- st.write(f"App 1: [Enlace]({url})")
 
 
 with col2: 
- st.subheader("App 2")
- image = Image.open('ricitos.jpg')
- st.image(image, width=100)
- st.write("Texto a audio: Cuento Ricitos de Oro") 
- url = "https://immmanuela.streamlit.app/"
- st.write(f"App 2: [Enlace]({url})")
-
- st.subheader("App 2")
+ st.subheader("Aplicación 2")
  image = Image.open('ricitos.jpg')
  st.image(image, width=100)
  st.write("Texto a audio: Cuento Ricitos de Oro") 
@@ -50,7 +36,7 @@ with col2:
 
 
 with col3: 
- st.subheader("App 3")
+ st.subheader("Aplicación 3")
  image = Image.open('Chat_pdf.png')
  st.image(image, width=190)
  st.write("Traductor") 
