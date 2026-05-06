@@ -1,6 +1,6 @@
 import streamlit as st
 from PIL import Image
-st.title("Aplicaciones de Inteligencia Artificial.")
+st.title("Mis aplicaciones, Creación de Interfaces Multimodales.")
 
 with st.sidebar:
   st.subheader("Mis Aplicaciones, Creación de Interfaces Multimodales.")
