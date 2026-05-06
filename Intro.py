@@ -112,7 +112,7 @@ with col3:
  st.subheader("Aplicación 12")
  image = Image.open('niños.jpg')
  st.image(image, width=1200)
- st.write("Chat adjunto pdf") 
+ st.write("Chat, análisis sobre el PDF cargado") 
  url = "https://chatpdfmanuela.streamlit.app/"
  st.write(f"App 12: [Enlace]({url})")
 
