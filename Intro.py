@@ -33,6 +33,15 @@ with col1:
  url = "https://imagentexto.streamlit.app/"
  st.write(f"App 4: [Enlace]({url})")
 
+  
+ st.subheader("Aplicación 7")
+ image = Image.open('em.png')
+ st.image(image, width=200)
+ st.write("Análisis de Sentimiento"
+) 
+ url = "https:https://sentimentamanu.streamlit.app/"
+ st.write(f"App 7: [Enlace]({url})")
+
 
 with col2:
  st.subheader("Aplicación 2")
