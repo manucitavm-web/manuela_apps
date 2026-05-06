@@ -61,7 +61,7 @@ with col2:
 
 
  st.subheader("Aplicación 8")
- image = Image.open('reconocimiento2.png')
+ image = Image.open('pyr.png')
  st.image(image, width=190)
  st.write("Demo Ingles") 
  url = "https:https://demomanuelaingles.streamlit.app/"
