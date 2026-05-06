@@ -24,6 +24,14 @@ with col1:
  url = "https://introduccionmanuela.streamlit.app/"
  st.write(f"App 1: [Enlace]({url})")
 
+ st.subheader("App 1")
+ image = Image.open('pocoyoynina.jpg')
+ st.image(image, width=200)
+ st.write("1.	Introducción: Mi Primera Aplicación"
+) 
+ url = "https://introduccionmanuela.streamlit.app/"
+ st.write(f"App 1: [Enlace]({url})")
+
 
 with col2: 
  st.subheader("App 2")
