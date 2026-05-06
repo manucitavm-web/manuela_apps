@@ -44,7 +44,7 @@ with col1:
 
   
  st.subheader("Aplicación 10")
- image = Image.open('em.png')
+ image = Image.open('detec.png')
  st.image(image, width=200)
  st.write("Yolo"
 ) 
