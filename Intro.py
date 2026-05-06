@@ -95,7 +95,7 @@ with col2:
 
 
  st.subheader("Aplicación 14")
- image = Image.open('reco.png')
+ image = Image.open('dig.png')
  st.image(image, width=500)
  st.write("Reconocimiento de Dígitos escritos a mano") 
  url = "https://handmanu.streamlit.app/"
