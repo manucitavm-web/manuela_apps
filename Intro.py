@@ -16,7 +16,7 @@ col1, col2, col3 = st.columns(3)
 
 with col1:
  
- st.subheader("App 1")
+ st.subheader("Aplicación 1")
  image = Image.open('pocoyoynina.jpg')
  st.image(image, width=200)
  st.write("Introducción: Mi Primera Aplicación"
