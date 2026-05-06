@@ -57,6 +57,14 @@ with col3:
  url = "https://traductormanuela.streamlit.app/"
  st.write(f"App 3: [Enlace]({url})")
 
+  
+ st.subheader("Aplicación 6")
+ image = Image.open('traductor.jpg')
+ st.image(image, width=140)
+ st.write("Nube de palabras") 
+ url = "https://wordcloudmanu.streamlit.app/"
+ st.write(f"App 6: [Enlace]({url})")
+
 
 
 
