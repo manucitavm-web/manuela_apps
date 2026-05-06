@@ -53,7 +53,7 @@ with col1:
 
 
  st.subheader("Aplicación 13")
- image = Image.open('detec.png')
+ image = Image.open('analisis.png')
  st.image(image, width=500)
  st.write("Análisis de imágenes"
 ) 
