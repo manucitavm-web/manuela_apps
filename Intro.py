@@ -39,7 +39,7 @@ with col1:
  st.image(image, width=200)
  st.write("Análisis de Sentimiento"
 ) 
- url = "https:https://sentimentamanu.streamlit.app/"
+ url = "https://sentimentamanu.streamlit.app/"
  st.write(f"App 7: [Enlace]({url})")
 
   
@@ -73,7 +73,7 @@ with col2:
  image = Image.open('pyr.png')
  st.image(image, width=500)
  st.write("Demo de TF-IDF con Preguntas y Respuestas") 
- url = "https:https://demomanuelaingles.streamlit.app/"
+ url = "https://demomanuelaingles.streamlit.app/"
  st.write(f"App 8: [Enlace]({url})")
 
 
@@ -105,8 +105,16 @@ with col3:
  image = Image.open('pyr2.png')
  st.image(image, width=500)
  st.write("Demo TF-IDF en Español") 
- url = "https:https://demomanuelaesp.streamlit.app/"
+ url = "https://demomanuelaesp.streamlit.app/"
  st.write(f"App 9: [Enlace]({url})")
+
+
+ st.subheader("Aplicación 12")
+ image = Image.open('pyr2.png')
+ st.image(image, width=500)
+ st.write("Chat adjunto pdf") 
+ url = "https://chatpdfmanuela.streamlit.app/"
+ st.write(f"App 12: [Enlace]({url})")
 
 
 
