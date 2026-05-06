@@ -39,21 +39,5 @@ with col1:
  st.write(f"App 3: [Enlace]({url})")
 
 
-with col2: 
- st.subheader("Aplicación 2")
- image = Image.open('ricitos.jpg')
- st.image(image, width=100)
- st.write("Texto a audio: Cuento Ricitos de Oro") 
- url = "https://immmanuela.streamlit.app/"
- st.write(f"App 2: [Enlace]({url})")
-
-
-with col3: 
- st.subheader("Aplicación 3")
- image = Image.open('traductor.jpg')
- st.image(image, width=190)
- st.write("Traductor") 
- url = "https://traductormanuela.streamlit.app/"
- st.write(f"App 3: [Enlace]({url})")
 
 
