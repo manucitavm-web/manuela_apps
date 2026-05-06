@@ -88,7 +88,7 @@ with col2:
 
  st.subheader("Aplicación 11")
  image = Image.open('reco.png')
- st.image(image, width=200)
+ st.image(image, width=180)
  st.write("Detección de gestos en aplicación TM") 
  url = "https://tmmanuela.streamlit.app/"
  st.write(f"App 11: [Enlace]({url})")
