@@ -19,7 +19,9 @@ with col1:
  st.subheader("Intro: Mi Primera App")
  image = Image.open('txt_to_audio2.png')
  st.image(image, width=190)
- st.write("En la siguiente enlace usaremos una de las aplicaciones de Inteligencia Artificial") 
+ st.write("Clase 6: Desarrollo de aplicaciones web para interfaces multimodales
+Interfaces Web, Texto a audio
+") 
  url = "https://introduccionmanuela.streamlit.app/"
  st.write(f"Texto a voz: [Enlace]({url})")
 
