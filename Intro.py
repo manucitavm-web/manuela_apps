@@ -10,7 +10,7 @@ with st.sidebar:
   st.write(parrafo)
 
 url_ia="https://sites.google.com/view/aplicacionesdeia/inicio"
-st.subheader("En la siguiente página podrás encontrar los links a mis ejercicios prácticos")
+st.subheader("En la siguiente link podrás encontrar un documento con links y capturas de mis ejercicios prácticos")
 st.write(f"Enlace para páginas y ejercicios: [Enlace]({url_ia})")
 col1, col2, col3 = st.columns(3)
 
