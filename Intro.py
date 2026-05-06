@@ -16,10 +16,10 @@ col1, col2, col3 = st.columns(3)
 
 with col1:
  
- st.subheader("Intro: Mi Primera App")
+ st.subheader("App 1")
  image = Image.open('pocoyoynina.jpg')
  st.image(image, width=190)
- st.write("Clase 6: Desarrollo de aplicaciones web para interfaces multimodales"
+ st.write("1.	Intro: Mi Primera App"
 ) 
  url = "https://introduccionmanuela.streamlit.app/"
  st.write(f"App 1: [Enlace]({url})")
@@ -39,10 +39,10 @@ with col1:
  st.write(f"YOLO: [Enlace]({url})")
 
 with col2: 
- st.subheader("Texto a audio: Cuento Ricitos de Oro")
+ st.subheader("App 2")
  image = Image.open('ricitos.jpg')
  st.image(image, width=190)
- st.write("Clase 6: Desarrollo de aplicaciones web para interfaces multimodales") 
+ st.write("2.	Texto a audio: Cuento Ricitos de Oro") 
  url = "https://immmanuela.streamlit.app/"
  st.write(f"App 2: [Enlace]({url})")
 
