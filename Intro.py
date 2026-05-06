@@ -22,7 +22,7 @@ with col1:
  st.write("Clase 6: Desarrollo de aplicaciones web para interfaces multimodales"
 ) 
  url = "https://introduccionmanuela.streamlit.app/"
- st.write(f"Texto a voz: [Enlace]({url})")
+ st.write(f"App 1: [Enlace]({url})")
 
  st.subheader("Reconocimiento de Objetos")
  image = Image.open('txt_to_audio.png')
