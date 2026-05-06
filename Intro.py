@@ -159,4 +159,12 @@ with col3:
  st.write(f"App 15: [Enlace]({url})")
 
 
+ st.subheader("Aplicación 18")
+ image = Image.open('voz.jpg')
+ st.image(image, width=1200)
+ st.write("Control de Voz") 
+ url = "https://ctrlvoice-manuela.streamlit.app/"
+ st.write(f"App 18: [Enlace]({url})")
+
+
 
