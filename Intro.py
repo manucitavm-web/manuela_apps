@@ -6,6 +6,7 @@ with st.sidebar:
   st.subheader("Mis Aplicaciones, Creación de Interfaces Multimodales.")
   parrafo = (
     "Manuela Vallejo Martínez,          "
+    
     "Diseño Interactivo"
   )
   st.write(parrafo)
