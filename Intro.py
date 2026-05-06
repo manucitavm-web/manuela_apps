@@ -62,7 +62,7 @@ with col1:
 
 
  st.subheader("Aplicación 16")
- image = Image.open('analisis.png')
+ image = Image.open('ti.png')
  st.image(image, width=500)
  st.write("Tablero Inteligente"
 ) 
