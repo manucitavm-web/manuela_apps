@@ -106,7 +106,7 @@ with col2:
  st.subheader("Aplicación 14")
  image = Image.open('dig.png')
  st.image(image, width=500)
- st.write("Reconocimiento de Dígitos escritos a mano") 
+ st.write("Reconocimiento de Dígitos") 
  url = "https://handmanu.streamlit.app/"
  st.write(f"App 14: [Enlace]({url})")
 
