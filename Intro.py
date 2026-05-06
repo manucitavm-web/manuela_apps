@@ -28,7 +28,7 @@ with col1:
  st.subheader("Aplicación 4")
  image = Image.open('reconocimiento.png')
  st.image(image, width=220)
- st.write("Reconocimiento Óptico de caracteres"
+ st.write("Reconocimiento Óptico de caracteres, Camara"
 ) 
  url = "https://imagentexto.streamlit.app/"
  st.write(f"App 4: [Enlace]({url})")
@@ -45,7 +45,7 @@ with col2:
  st.subheader("Aplicación 5")
  image = Image.open('ricitos.jpg')
  st.image(image, width=110)
- st.write("Cmbinación") 
+ st.write("Reconocimiento Óptico de caracteres, Imagen") 
  url = "https://ocr-audio-manuela.streamlit.app/"
  st.write(f"App 2: [Enlace]({url})")
 
