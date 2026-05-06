@@ -9,9 +9,9 @@ with st.sidebar:
   )
   st.write(parrafo)
 
-url_ia="https://sites.google.com/view/aplicacionesdeia/inicio"
+url_ia="https://docs.google.com/document/d/1AG81b_IB8lGef8qu-Z6m8dSePfXJrbfv/edit"
 st.subheader("En la siguiente enlace podrás encontrar un documento con links y capturas de mis ejercicios prácticos")
-st.write(f"Enlace para páginas y ejercicios: [Enlace]({url_ia})")
+st.write(f"Portalio Manuela: [Enlace]({url_ia})")
 col1, col2, col3 = st.columns(3)
 
 with col1:
