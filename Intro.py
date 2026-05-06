@@ -28,7 +28,7 @@ with col1:
 with col2: 
  st.subheader("App 2")
  image = Image.open('ricitos.jpg')
- st.image(image, width=120)
+ st.image(image, width=110)
  st.write("2.	Texto a audio: Cuento Ricitos de Oro") 
  url = "https://immmanuela.streamlit.app/"
  st.write(f"App 2: [Enlace]({url})")
