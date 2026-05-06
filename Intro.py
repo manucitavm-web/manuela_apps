@@ -45,7 +45,7 @@ with col1:
   
  st.subheader("Aplicación 10")
  image = Image.open('detec.png')
- st.image(image, width=500)
+ st.image(image, width=300)
  st.write("Yolo, Detección de Objetos en Imágenes"
 ) 
  url = "https://yolov5manuela.streamlit.app/"
@@ -88,7 +88,7 @@ with col2:
 
  st.subheader("Aplicación 11")
  image = Image.open('reco.png')
- st.image(image, width=500)
+ st.image(image, width=300)
  st.write("Detección de gestos en aplicación TM") 
  url = "https://tmmanuela.streamlit.app/"
  st.write(f"App 11: [Enlace]({url})")
