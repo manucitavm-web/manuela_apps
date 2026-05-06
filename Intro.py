@@ -70,6 +70,16 @@ with col1:
  st.write(f"App 16: [Enlace]({url})")
 
 
+ st.subheader("Aplicación 19")
+ image = Image.open('mqtt.jpg')
+ st.image(image, width=300)
+ st.write("MQTT Control"
+) 
+ url = "https://sendcmqtt-manuela.streamlit.app/"
+ st.write(f"App 19: [Enlace]({url})")
+
+
+
 with col2:
  st.subheader("Aplicación 2")
  image = Image.open('ricitos.jpg')
