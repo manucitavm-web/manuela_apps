@@ -24,12 +24,12 @@ with col1:
  url = "https://introduccionmanuela.streamlit.app/"
  st.write(f"App 1: [Enlace]({url})")
 
- st.subheader("Reconocimiento de Objetos")
- image = Image.open('txt_to_audio.png')
+ st.subheader("Texto a audio: Cuento Ricitos de Oro")
+ image = Image.open('ricitos.jpg')
  st.image(image, width=200)
- st.write("En la siguiente enlace veremos como se detectan objetos en Imágenes.") 
- url = "https://yolov5cmc.streamlit.app/"
- st.write(f"YOLO: [Enlace]({url})")
+ st.write("Clase 6: Desarrollo de aplicaciones web para interfaces multimodales") 
+ url = "https://immmanuela.streamlit.app/"
+ st.write(f"App 2: [Enlace]({url})")
 
  st.subheader("Entrenando Modelos")
  image = Image.open('OIG5.jpg')
